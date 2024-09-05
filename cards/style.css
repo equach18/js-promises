@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: green;
+}
+
+button{
+    background-color: rgba(79, 78, 78, 0.978);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px;
+    margin-top: 1vh;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#card-container{
+    margin-top: 80px;
+}
+
+#card-container > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
